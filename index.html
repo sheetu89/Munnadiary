@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Munna Dairy - Fresh Cow & Buffalo Milk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Munna Dairy</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#milk">Our Milk</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Pure & Fresh Milk at Your Doorstep</h1>
+    <p>Buffalo & Cow Milk Delivered Daily – Trusted by Many!</p>
+    <a href="#contact" class="cta">Order Now</a>
+  </section>
+  <section id="about">
+  <h2>About Munna Dairy</h2>
+  <div class="about-container">
+    <img src="munna.jpg" alt="Mr. Munna" class="owner-photo" />
+    <div class="about-text">
+      <p>
+        <strong>Welcome to Munna Dairy!</strong><br>
+        Serving Yamunanagar for <span style="color:#ff4e50;font-weight:bold;">20+ years</span>, we are your trusted source for fresh, pure buffalo and cow milk. 
+        <br><br>
+        <span style="color:#f9d423;font-weight:bold;">Mr. Munna</span> and his team have dedicated their lives to delivering hygienic, nutritious milk straight from our healthy cattle to your doorstep. Our commitment to quality and customer satisfaction has made us a household name in the region.
+      </p>
+      <ul style="margin: 10px 0 10px 18px; color:#444;">
+        <li>20+ years of dairy excellence</li>
+        <li>Strict hygiene & daily quality checks</li>
+        <li>Fresh green fodder for our cattle</li>
+        <li>Trusted by hundreds of families</li>
+      </ul>
+      <p><strong>Address:</strong> House No. 513, Madhu Colony, Chitta Mandir Road, Yamunanagar, Haryana</p>
+      <p><strong>Phone:</strong> 8930368529</p>
+      <p><strong>Email:</strong> sheetalbhardwaj525@gmail.com</p>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- Our Milk Section -->
+<section id="milk">
+  <h2>Our Milk</h2>
+  <p style="text-align:center; color:#43e97b; font-weight:600; margin-bottom:18px;">
+    <span style="font-size:1.2em;">🪣</span> Our milk is delivered fresh every day in traditional <strong>dolu</strong> (milk cans) for purity and hygiene.
+  </p>
+  <div class="milk-container">
+    <div class="milk-card">
+      <img src="images/cow-milk.jpg" alt="Cow Milk" style="width:100%;height:180px;object-fit:cover;border-radius:12px;margin-bottom:14px;" />
+      <h3>Cow Milk</h3>
+      <p>Fresh, pure, and full of nutrition. Sourced from healthy cows, tested daily for quality.</p>
+      <ul>
+        <li>Rich in Calcium & Protein</li>
+        <li>Delivered within hours of milking</li>
+        <li>No preservatives</li>
+      </ul>
+    </div>
+    <div class="milk-card">
+      <img src="images/buffalo-milk.jpg" alt="Buffalo Milk" style="width:100%;height:180px;object-fit:cover;border-radius:12px;margin-bottom:14px;" />
+      <h3>Buffalo Milk</h3>
+      <p>Thick, creamy, and perfect for sweets. Our buffaloes are grass-fed and well cared for.</p>
+      <ul>
+        <li>High in Cream & Nutrients</li>
+        <li>100% Pure & Hygienic</li>
+        <li>Lab-tested for safety</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid big-gallery">
+    <div class="gallery-item"><img src="fresh milk.jpg" alt="Fresh Milk" /></div>
+    <div class="gallery-item"><img src="milk cans.jpg" alt="Milk cans" /></div>
+    <div class="gallery-item"><img src="grass.jpg" alt="Green Fodder" /></div>
+    <div class="gallery-item"><img src="feeding.jpg" alt="Buffaloes Eating Quality Fodder" /></div>
+    <div class="gallery-item"><img src="cow and buffaloes-shed.jpg" alt="Clean Cow Shed" /></div>
+    <div class="gallery-item"><img src="quality-check.jpg" alt="Quality Check" /></div>
+    <div class="gallery-caption">
+      <strong>Quality:</strong> We feed our cattle with fresh green fodder and maintain strict hygiene for best milk quality.
+    </div>
+  </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews">
+  <h2>Customer Reviews</h2>
+  <div class="reviews-list">
+    <div class="review">
+      <strong>Ravi Kumar</strong>
+      <span>⭐⭐⭐⭐⭐</span>
+      <p>Best milk in town! Always fresh and pure.</p>
+    </div>
+    <div class="review">
+      <strong>Sunita Sharma</strong>
+      <span>⭐⭐⭐⭐</span>
+      <p>Delivery is always on time. Highly recommended.</p>
+    </div>
+    <!-- More static reviews can be added here -->
+  </div>
+  <div class="review-form">
+    <h3>Leave a Review</h3>
+    <form id="reviewForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <select name="rating" required>
+        <option value="">Rating</option>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+      </select>
+      <textarea name="comment" placeholder="Your review..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="reviewMessage"></div>
+    <div id="userReviews"></div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <h3>Our Location</h3>
+        <p>House No. 513, Madhu Colony, Chitta Mandir Road, Yamunanagar, Haryana</p>
+        <h3>Call Us</h3>
+        <p>8930368529</p>
+        <h3>Email Us</h3>
+        <p>sheetalbhardwaj525@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order">
+  <h2>Order Now</h2>
+  <div class="order-container">
+    <form class="order-form" id="orderForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="text" name="address" placeholder="Delivery Address" required />
+      <select name="milkType" required>
+        <option value="">Select Milk Type</option>
+        <option value="Cow Milk">Cow Milk</option>
+        <option value="Buffalo Milk">Buffalo Milk</option>
+      </select>
+      <input type="number" name="quantity" placeholder="Quantity (Litres)" min="1" required />
+      <button type="submit">Place Order</button>
+    </form>
+    <div class="order-info creative-order-info">
+      <div class="why-order-box">
+        <h3><span class="why-icon">🥛</span> Why Order From Us?</h3>
+        <ul class="why-list">
+          <li><span class="why-icon">🚚</span> <strong>Fresh milk delivered daily</strong> <span class="why-detail">– From farm to your home, every morning & evening!</span></li>
+          <li><span class="why-icon">🐄</span> <strong>Choose cow or buffalo milk</strong> <span class="why-detail">– As per your family’s taste & health needs.</span></li>
+          <li><span class="why-icon">📏</span> <strong>Flexible quantity</strong> <span class="why-detail">– Order as much as you need, no wastage.</span></li>
+          <li><span class="why-icon">🧤</span> <strong>Contactless & hygienic delivery</strong> <span class="why-detail">– Safety is our top priority.</span></li>
+          <li><span class="why-icon">🏆</span> <strong>Trusted by 100+ families</strong> <span class="why-detail">– 20+ years of happy customers.</span></li>
+        </ul>
+      </div>
+      <div class="timing-box creative-timing">
+        <h3><span class="why-icon">⏰</span> Delivery Timings</h3>
+        <div class="timing-row">
+          <span class="timing-label">Morning:</span>
+          <span class="timing-time">6:00 AM – 8:00 AM</span>
+        </div>
+        <div class="timing-row">
+          <span class="timing-label">Evening:</span>
+          <span class="timing-time">5:00 PM – 6:00 PM</span>
+        </div>
+      </div>
+      <div class="help-box creative-help">
+        <h3><span class="why-icon">📞</span> Need Help?</h3>
+        <p><strong>Call:</strong> <a href="tel:8930368529">8930368529</a></p>
+        <p><strong>Email:</strong> <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+  <div id="orderMessage"></div>
+</section>
+
+  <footer>
+    <p>&copy; 2023 Munna Dairy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
